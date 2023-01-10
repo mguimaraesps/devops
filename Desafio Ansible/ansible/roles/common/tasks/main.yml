@@ -1,0 +1,10 @@
+---
+- name: Install packages
+  apt:
+    name: "{{ PACOTES }}"
+    state: present
+
+- name: Add the user mguimaraes
+  user:
+    name: mguimaraes
+    shell: /bin/bash

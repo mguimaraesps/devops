@@ -1,0 +1,10 @@
+---
+PACOTES:
+  - vim
+  - curl
+  - telnet
+  - unzip
+  - wget
+  - net-tools
+  - htop
+  - nmap

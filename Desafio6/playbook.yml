@@ -1,0 +1,10 @@
+- name: Build docker image
+  hosts: all
+  tasks:
+    - name: Criando container
+      docker_container:
+        name: Desafio6
+        image: nginx
+        state: started
+        restart: yes
+        ports: "8080:80"
